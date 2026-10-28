@@ -1,13 +1,15 @@
 """
 Formula 1 Race Intelligence Dashboard - Flask Application Engine
 ================================================================
-Author / Lead Developer: Atharv Prakash Malviya
-Tableau Public Profile : atharv malviya
+Author / Lead Developer: Tanisha Patel
+Tableau Author Profile : tanisha patel
+Tableau Cloud Site     : tanishapatelsk-aac6bafda5
 Published Workbook     : F1 Race Intelligence Dashboard_2
+Dashboard Sheet Name   : FORMULA 1 RACE INTELLIGENCE DASHBOARD
 Championship Story     : Formula 1 Race Intelligence: From Global Overview to Championship Success
 
 This module serves the interactive Formula 1 Race Intelligence web application,
-providing dynamic rendering of the dark telemetry interface, embedded Tableau Public
+providing dynamic rendering of the dark telemetry interface, embedded Tableau
 visualizations, and RESTful telemetry data endpoints.
 """
 
@@ -30,18 +32,25 @@ app = Flask(
 )
 
 # ==============================================================================
-# CONFIGURATION SETTINGS & TABLEAU PUBLIC URLS
+# CONFIGURATION SETTINGS & TABLEAU CLOUD / PUBLIC URLS
 # ==============================================================================
 CONFIG = {
-    "AUTHOR_NAME": "Atharv Prakash Malviya",
-    "AUTHOR_HANDLE": "atharv malviya",
+    "AUTHOR_NAME": "Tanisha Patel",
+    "AUTHOR_HANDLE": "tanisha patel",
     "WORKBOOK_NAME": "F1 Race Intelligence Dashboard_2",
     "DASHBOARD_SHEET": "FORMULA 1 RACE INTELLIGENCE DASHBOARD",
     "STORY_SHEET": "Formula 1 Race Intelligence: From Global Overview to Championship Success",
     
-    # Live Tableau Public URLs provided by Atharv Prakash Malviya
-    "TABLEAU_DASHBOARD_URL": "https://public.tableau.com/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-    "TABLEAU_STORY_URL": "https://public.tableau.com/shared/H8573444D?:display_count=n&:origin=viz_share_link",
+    # Direct Interactive URLs
+    "TABLEAU_DASHBOARD_URL": "https://prod-in-a.online.tableau.com/#/site/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD",
+    "TABLEAU_STORY_URL": "https://prod-in-a.online.tableau.com/#/site/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess",
+    
+    # Responsive Embed URLs (for <iframe> & web components)
+    "TABLEAU_DASHBOARD_EMBED_URL": "https://prod-in-a.online.tableau.com/t/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:embed=y&:showVizHome=n&:toolbar=y&:showAppBanner=false",
+    "TABLEAU_STORY_EMBED_URL": "https://prod-in-a.online.tableau.com/t/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess?:embed=y&:showVizHome=n&:toolbar=y&:showAppBanner=false",
+    
+    # Tableau Public Fallback Profile
+    "TABLEAU_PUBLIC_PROFILE": "https://public.tableau.com/app/profile/tanisha.patel",
     
     # 4 Core KPI Ground Truth
     "KPIS": {
@@ -57,7 +66,7 @@ CONFIG = {
             "id": "circuits",
             "title": "Circuit Analysis",
             "icon": "fa-solid fa-route",
-            "desc": "Track-by-track spatial and telemetry fingerprinting across 29 world circuits from Monza's high-speed straights to Bahrain's desert braking zones.",
+            "desc": "Track-by-track spatial layout and telemetry fingerprinting across 29 world circuits from Monza's temple of speed to Bahrain's desert technical sectors.",
             "stat": "→ 29 HOST CIRCUITS MAPPED"
         },
         {
@@ -71,7 +80,7 @@ CONFIG = {
             "id": "tyre_strategy",
             "title": "Tyre Strategy",
             "icon": "fa-solid fa-compact-disc",
-            "desc": "Degradation curves and compound usage share across 4 official Pirelli specifications: Soft (31.52%), Medium (30.78%), Hard (30.36%), and Inter (7.34%).",
+            "desc": "Degradation curves and compound usage share across 4 official Pirelli specifications: Soft (31.52%), Medium (30.78%), Hard (30.36%), and Intermediate (7.34%).",
             "stat": "→ 4 TELEMETRY COMPOUNDS IN PLAY"
         },
         {
@@ -85,7 +94,7 @@ CONFIG = {
             "id": "points_progression",
             "title": "Points Progression",
             "icon": "fa-solid fa-chart-line",
-            "desc": "Championship point curves tracking Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across 17 competitive seasons (2010–2026).",
+            "desc": "Championship point curves tracking constructor titan clashes between Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across 17 competitive seasons (2010–2026).",
             "stat": "→ 17 SEASONS (2010–2026)"
         },
         {
@@ -102,7 +111,7 @@ CONFIG = {
         {"id": 1, "title": "KPI Summary Cards", "summary": "Core telemetry foundation indexing 10 Competing Teams, 17 Seasons, 6,464 Outcomes, and 29 Circuits."},
         {"id": 2, "title": "Global Driver Distribution", "summary": "Dark Mapbox geographic projection mapping driver nationalities and racing volumes across 29 Grand Prix nations."},
         {"id": 3, "title": "Country-wise Race Participation", "summary": "Participation volume treemap led by Bahrain (2,168 outcomes), United States (400), Monaco (328), Spain (328), and Brazil (308)."},
-        {"id": 4, "title": "Team Championship Performance", "summary": "Vertical bar chart tracking constructor championship hauls across hybrid engine regulations."},
+        {"id": 4, "title": "Team Championship Performance", "summary": "Vertical bar chart tracking constructor championship hauls across turbo-hybrid engine regulations."},
         {"id": 5, "title": "Driver Reliability Analysis", "summary": "Stacked bar chart colored by DNF Reason (Engine, Collision, Transmission, Suspension, Brakes) detailing attrition."},
         {"id": 6, "title": "Driver Performance Leaderboard", "summary": "Dynamic Top-N vertical bar chart driven by Top N Parameter (Hamilton, Verstappen, Leclerc, Norris, Alonso)."},
         {"id": 7, "title": "Podium Achievements", "summary": "Packed bubble visualization sized by SUM(Podiums) contrasting driver and constructor top-3 cluster density."},
@@ -144,7 +153,10 @@ def index():
         author_handle=CONFIG["AUTHOR_HANDLE"],
         workbook_name=CONFIG["WORKBOOK_NAME"],
         tableau_dashboard_url=CONFIG["TABLEAU_DASHBOARD_URL"],
+        tableau_dashboard_embed_url=CONFIG["TABLEAU_DASHBOARD_EMBED_URL"],
         tableau_story_url=CONFIG["TABLEAU_STORY_URL"],
+        tableau_story_embed_url=CONFIG["TABLEAU_STORY_EMBED_URL"],
+        tableau_profile_url=CONFIG["TABLEAU_PUBLIC_PROFILE"],
         kpis=CONFIG["KPIS"],
         dimensions=CONFIG["DIMENSIONS"],
         story_scenes=CONFIG["STORY_SCENES"]
@@ -161,10 +173,13 @@ def get_config():
     return jsonify({
         "status": "success",
         "author": CONFIG["AUTHOR_NAME"],
-        "tableau_public_profile": f"https://public.tableau.com/app/profile/{CONFIG['AUTHOR_HANDLE'].replace(' ', '.')}",
+        "author_handle": CONFIG["AUTHOR_HANDLE"],
+        "tableau_profile": CONFIG["TABLEAU_PUBLIC_PROFILE"],
         "workbook_name": CONFIG["WORKBOOK_NAME"],
         "tableau_dashboard_url": CONFIG["TABLEAU_DASHBOARD_URL"],
+        "tableau_dashboard_embed_url": CONFIG["TABLEAU_DASHBOARD_EMBED_URL"],
         "tableau_story_url": CONFIG["TABLEAU_STORY_URL"],
+        "tableau_story_embed_url": CONFIG["TABLEAU_STORY_EMBED_URL"],
         "kpis": CONFIG["KPIS"]
     })
 
@@ -227,7 +242,8 @@ if __name__ == '__main__':
     print(f"================================================================")
     print(f"🏎️ FORMULA 1 RACE INTELLIGENCE DASHBOARD")
     print(f"   Lead Architect : {CONFIG['AUTHOR_NAME']}")
-    print(f"   Tableau Public : {CONFIG['AUTHOR_HANDLE']}")
+    print(f"   Tableau Author : {CONFIG['AUTHOR_HANDLE']}")
+    print(f"   Workbook       : {CONFIG['WORKBOOK_NAME']}")
     print(f"   Listening on   : http://127.0.0.1:{port}")
     print(f"================================================================")
     app.run(host='0.0.0.0', port=port, debug=True)
