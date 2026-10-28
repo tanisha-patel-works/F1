@@ -1,12 +1,13 @@
 # 🏎️ FORMULA 1 RACE INTELLIGENCE DASHBOARD
-### High-Performance Motorsport Telemetry & Championship Analytics Engine
-**Author & Lead Architect:** [Atharv Prakash Malviya](https://public.tableau.com/app/profile/atharv.malviya)  
-**Tableau Public Profile:** `atharv malviya`  
+### Enterprise Motorsport Telemetry & Championship Analytics Engine
+**Author & Lead Architect:** [Tanisha Patel](https://public.tableau.com/app/profile/tanisha.patel)  
+**Tableau Author Profile:** `tanisha patel`  
+**Tableau Cloud Site:** `tanishapatelsk-aac6bafda5` (`prod-in-a.online.tableau.com`)  
 **Published Workbook:** `F1 Race Intelligence Dashboard_2`  
 
-[![Tableau Public](https://img.shields.io/badge/Tableau_Public-Live_Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-[![Tableau Story](https://img.shields.io/badge/Tableau_Story-9--Scene_Narrative-22C55E?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/shared/H8573444D?:display_count=n&:origin=viz_share_link)
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Tableau Dashboard](https://img.shields.io/badge/Tableau-Live_Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://prod-in-a.online.tableau.com/#/site/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD)
+[![Tableau Story](https://img.shields.io/badge/Tableau_Story-9--Scene_Narrative-22C55E?style=for-the-badge&logo=tableau&logoColor=white)](https://prod-in-a.online.tableau.com/#/site/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess)
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-Web_Service-000000?style=for-the-badge&logo=flask&logoColor=white)](https://palletsprojects.com/p/flask/)
 [![Theme](https://img.shields.io/badge/Theme-F1_Dark_Obsidian_%26_Crimson-E10600?style=for-the-badge)](#)
 
@@ -14,18 +15,18 @@
 
 ## 📌 Project Overview
 
-The **Formula 1 Race Intelligence Dashboard** is an enterprise-grade motorsport telemetry platform that translates **17 seasons of racing data (2010–2026)**, **6,464 race outcomes**, and **~13,750 connected data records** into interactive visual intelligence. 
+The **Formula 1 Race Intelligence Dashboard** is an enterprise-grade motorsport telemetry platform that synthesizes **17 championship seasons (2010–2026)**, **6,464 race outcomes**, and **~13,750 connected data records** into actionable visual intelligence. 
 
-Combining **Tableau Public**'s analytical power with a responsive **Python Flask** service layer and a broadcast-inspired dark user interface (`#0a0a0f` Obsidian + `#e10600` F1 Crimson), this platform provides team strategists, sports journalists, and racing enthusiasts with instant access to championship trajectories, tyre wear degradation curves, and reliability diagnostics.
+Engineered by **Tanisha Patel**, the project combines **Tableau**'s visual compute engine with a robust **Python Flask** service layer and a broadcast-inspired dark user interface (`#0a0a0f` Obsidian + `#e10600` F1 Crimson). It provides race strategists, analysts, and motorsport enthusiasts with instant access to championship trajectories, tyre wear degradation profiles, and reliability diagnostics.
 
 ---
 
-## 📊 Live Tableau Public Workbooks
+## 📊 Live Interactive Tableau Workbooks
 
 * 🏁 **Interactive Telemetry Dashboard:**  
-  [FORMULA 1 RACE INTELLIGENCE DASHBOARD](https://public.tableau.com/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+  [FORMULA 1 RACE INTELLIGENCE DASHBOARD](https://prod-in-a.online.tableau.com/#/site/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD)
 * 📖 **9-Scene Championship Narrative Story:**  
-  [Formula 1 Race Intelligence: From Global Overview to Championship Success](https://public.tableau.com/shared/H8573444D?:display_count=n&:origin=viz_share_link)
+  [Formula 1 Race Intelligence: From Global Overview to Championship Success](https://prod-in-a.online.tableau.com/#/site/tanishapatelsk-aac6bafda5/views/F1RaceIntelligenceDashboard_2/Formula1RaceIntelligenceFromGlobalOverviewtoChampionshipSuccess)
 
 ---
 
@@ -43,11 +44,11 @@ Combining **Tableau Public**'s analytical power with a responsive **Python Flask
 
 ## 🔬 5 Core Telemetry Pillars
 
-1. **Global Race Overview:** Multi-season geographic footprint across 29 world circuits, mapping race volumes, track profiles, and continental racing clusters.
-2. **Driver Performance Metrics:** Qualifying pace deltas, race pace progression, dynamic Top-N parameter scoring, and podium conversion ratios.
-3. **Constructor Championship Battle:** Multi-season constructor trajectory highlighting Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across hybrid regulations.
-4. **Pit Stop & Tyre Strategy Analysis:** Pirelli compound distribution across 4 specifications (Soft 31.52%, Medium 30.78%, Hard 30.36%, Intermediate 7.34%) and stint degradation modeling.
-5. **Reliability & DNF Diagnostics:** Failure cause classification (Engine, Collision, Transmission, Suspension, Brakes) and attrition dynamics illustrating modern 91.4% grid completion.
+1. **Global Race & Circuit Overview:** Spatial telemetry across 29 host circuits worldwide, mapping race volumes, track topology, and continental racing clusters led by Bahrain (2,168 logged outcomes) and the USA (400 outcomes).
+2. **Driver Performance & Grid Leaderboards:** Dynamic Top-N parameter scoring (default: 10) benchmarking drivers across career points, qualifying-to-race pace conversions, and podium finishes.
+3. **Constructor Championship Rivalry:** Historical trajectory tracking constructor championship supremacy between Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across 17 competitive seasons.
+4. **Pit Stop & Tyre Strategy Analysis:** Pirelli compound share analysis across Soft (31.52%), Medium (30.78%), Hard (30.36%), and Inter (7.34%), mapping stint windows and thermal degradation curves.
+5. **Reliability, DNF & Attrition Diagnostics:** Root-cause attrition diagnostics segmenting mechanical and collision failures (Engine, Transmission, Suspension, Brakes, Collision) confirming the 91.4% grid finish rate benchmark.
 
 ---
 
@@ -80,9 +81,9 @@ Architecture Diagram
 +-------------------------------------------------------------------------------+
 |  TABLEAU ANALYTICS ENGINE                                                     |
 |  - Logical Layer Relationships (circuit_id, race_id, season, driver)           |
-|  - Calculated Fields: [DNF Count], [Points Cumulative], [Completion Rate %]   |
-|  - Parameters: [Top N Parameter] (Integer 1-20, default: 10)                  |
-|  - Published to Tableau Public: F1 Race Intelligence Dashboard_2               |
+|  - Calculated Fields: [Is DNF], [Cumulative Points], [Reliability Rate %]     |
+|  - Parameters: [Top N Parameter] (Integer 5-20, default: 10)                  |
+|  - Published to Tableau Cloud / Public: F1 Race Intelligence Dashboard_2      |
 +-------------------------------------------------------------------------------+
                                       │
                                       ▼
@@ -101,9 +102,9 @@ Architecture Diagram
 
 The application supports **both** a full Flask web server and instant offline double-click viewing:
 
-### Method 1: Python Flask Server (Recommended for Evaluation)
+### Method 1: Python Flask Server (Recommended)
 
-1. **Install Python dependencies:**
+1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
@@ -111,12 +112,13 @@ The application supports **both** a full Flask web server and instant offline do
    ```bash
    python app.py
    ```
+   *(Or double-click `run.bat` on Windows)*
 3. **Open in your web browser:**
    ```
    http://127.0.0.1:5000
    ```
 
-### Method 2: Offline Double-Click Execution (Zero Server / Zero CORS)
+### Method 2: Offline Direct Browser Execution (Zero Server / Zero CORS)
 
 Simply double-click `index.html` in Windows Explorer or open it in any modern browser. All pre-computed telemetry is bundled in `data.js`, and live Tableau embeds will automatically stream over HTTPS.
 
@@ -126,8 +128,8 @@ Simply double-click `index.html` in Windows Explorer or open it in any modern br
 
 | Endpoint | Method | Response Description |
 | :--- | :---: | :--- |
-| `/api/health` | `GET` | Service status, author name, and version info. |
-| `/api/config` | `GET` | Current active Tableau Public URLs and metadata. |
+| `/api/health` | `GET` | Service status, author name (**Tanisha Patel**), and version info. |
+| `/api/config` | `GET` | Current active Tableau URLs, workbook name, and metadata. |
 | `/api/telemetry` | `GET` | Aggregated 4 Core KPIs and analytical dimensions. |
 | `/api/circuits` | `GET` | Catalog of all 29 world circuits with coordinates. |
 | `/api/drivers` | `GET` | Driver career records and telemetry rankings. |
@@ -147,12 +149,13 @@ Simply double-click `index.html` in Windows Explorer or open it in any modern br
 │   ├── assets/                # Preview images & reference captures
 │   └── data/                  # Granular JSON telemetry files
 ├── requirements.txt           # Python dependency specifications
+├── run.bat                    # Windows one-click startup launcher
 ├── index.html                 # Standalone static distribution file
 ├── style.css                  # Design system stylesheet
 ├── script.js                  # Frontend controller logic
 ├── data.js                    # Telemetry data feed
-├── F1 Racing Project Dataset.xlsx # Raw 5-sheet Formula 1 dataset
-├── PROJECT_DOCUMENTATION.md   # Comprehensive academic project documentation
+├── F1 Racing Project Dataset.xlsx # Master 5-sheet Formula 1 dataset
+├── PROJECT_DOCUMENTATION.md   # Comprehensive technical project documentation
 └── README.md                  # This README file
 ```
 
@@ -160,12 +163,12 @@ Simply double-click `index.html` in Windows Explorer or open it in any modern br
 
 ## 👤 Author & Credits
 
-* **Author & Lead Developer:** **Atharv Prakash Malviya**
-* **Tableau Public:** [@atharv malviya](https://public.tableau.com/app/profile/atharv.malviya)
+* **Author & Lead Architect:** **Tanisha Patel**
+* **Tableau Profile:** [@tanisha patel](https://public.tableau.com/app/profile/tanisha.patel)
 * **Academic Submission:** October 2026
 
 ---
 
 ## ⚖️ Educational Disclaimer
 
-*This project is an independent educational and academic analytics platform developed by Atharv Prakash Malviya. Formula 1, F1, FIA, and related marks are trademarks of Formula One Licensing B.V. Not affiliated with or endorsed by Formula 1 companies.*
+*This project is an independent educational and academic analytics platform developed by Tanisha Patel. Formula 1, F1, FIA, and related marks are trademarks of Formula One Licensing B.V. Not affiliated with or endorsed by Formula 1 companies.*
