@@ -117,7 +117,7 @@
             <span class="author-sep">•</span>
             <span class="author-badge">
               <i class="fa-solid fa-chart-column"></i> Tableau Public:
-              <a href="https://public.tableau.com/app/profile/atharv.malviya" target="_blank" rel="noopener">{{ author_handle }}</a>
+              <a href="{{ tableau_profile_url }}" target="_blank" rel="noopener">{{ author_handle }}</a>
             </span>
             <span class="author-sep">•</span>
             <span class="author-badge">
@@ -253,27 +253,27 @@
             <h2 class="project-title">Transforming F1 Telemetry Into Championship Intelligence</h2>
             
             <p class="project-desc-p">
-              Modern Formula 1 racing generates vast volumes of high-frequency timing loops, sector splits, speed trap telemetry, and championship standings data. Converting these fragmented records into decisive strategic intelligence requires an integrated analytical architecture.
+              In modern Formula 1, competitive superiority is won not only on asphalt but through the real-time synthesis of telemetry, micro-sector splits, tyre degradation curves, and strategic pit windows. Converting these high-velocity telemetry streams into championship outcomes requires an integrated, multi-tier data architecture.
             </p>
             <p class="project-desc-p">
-              This platform aggregates 17 seasons of racing data (2010–2026) totaling 6,464 race outcomes across 29 world circuits. Developed by <strong>{{ author_name }}</strong>, the project bridges multi-table data modeling in Tableau Public with a Python Flask service layer, unlocking deep-dive diagnostics across 5 core telemetry pillars:
+              Engineered by <strong>{{ author_name }}</strong>, this enterprise-grade platform synthesizes 17 seasons of racing data (2010–2026) totaling 6,464 validated race outcomes across 29 world circuits. Linking a robust Python Flask service layer with interactive Tableau visual analytics, the system establishes deep-dive telemetry diagnostics across 5 core architectural pillars:
             </p>
 
             <!-- 5 Core Pillars List -->
             <div class="project-features">
               <div class="project-feature-item">
-                <div class="feature-icon-box"><i class="fa-solid fa-globe"></i></div>
+                <div class="feature-icon-box"><i class="fa-solid fa-earth-americas"></i></div>
                 <div class="feature-info">
-                  <h4>1. Global Race Overview</h4>
-                  <p>Comprehensive spatial analysis across all 29 Grand Prix host circuits mapping geographic race volume and driver origin distributions.</p>
+                  <h4>1. Global Race & Circuit Overview</h4>
+                  <p>Geographic spatial telemetry across 29 host circuits worldwide, analyzing circuit topology, altitude variations, and country participation volumes led by Bahrain (2,168 outcomes) and USA (400 outcomes).</p>
                 </div>
               </div>
 
               <div class="project-feature-item">
-                <div class="feature-icon-box"><i class="fa-solid fa-user-astronaut"></i></div>
+                <div class="feature-icon-box"><i class="fa-solid fa-gauge-high"></i></div>
                 <div class="feature-info">
-                  <h4>2. Driver Performance Metrics</h4>
-                  <p>Qualifying pace deltas, race pace progression, dynamic Top-N parameter scoring, and podium conversion ratios.</p>
+                  <h4>2. Driver Performance & Grid Leaderboards</h4>
+                  <p>Dynamic Top-N parameter scoring (default: 10) benchmarking drivers across career points, qualifying-to-race pace conversions, and podium finishes.</p>
                 </div>
               </div>
 
@@ -281,7 +281,7 @@
                 <div class="feature-icon-box"><i class="fa-solid fa-trophy"></i></div>
                 <div class="feature-info">
                   <h4>3. Constructor Championship Battle</h4>
-                  <p>Multi-season constructor trajectory highlighting Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across hybrid regulations.</p>
+                  <p>Historical trajectory tracking constructor championship supremacy between Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across 17 competitive seasons.</p>
                 </div>
               </div>
 
@@ -289,7 +289,7 @@
                 <div class="feature-icon-box"><i class="fa-solid fa-compact-disc"></i></div>
                 <div class="feature-info">
                   <h4>4. Pit Stop & Tyre Strategy Analysis</h4>
-                  <p>Pirelli compound distribution across 4 specifications (Soft, Medium, Hard, Intermediate) and stint degradation modeling.</p>
+                  <p>Pirelli compound share analysis across Soft (31.52%), Medium (30.78%), Hard (30.36%), and Inter (7.34%), mapping stint windows and thermal degradation curves.</p>
                 </div>
               </div>
 
@@ -297,7 +297,7 @@
                 <div class="feature-icon-box"><i class="fa-solid fa-triangle-exclamation"></i></div>
                 <div class="feature-info">
                   <h4>5. Reliability & DNF Diagnostics</h4>
-                  <p>Mechanical vs. accident attrition categorization (Engine, Collision, Transmission, Suspension, Brakes) and Safety Car impacts.</p>
+                  <p>Root-cause attrition diagnostics segmenting mechanical and collision failures (Engine, Transmission, Suspension, Brakes, Collision) confirming the 91.4% grid finish rate benchmark.</p>
                 </div>
               </div>
             </div>
@@ -338,7 +338,7 @@
           </div>
           <div class="ticker-track-wrap">
             <div class="ticker-track" id="tickerTrack">
-              <span class="ticker-item">Atharv Prakash Malviya: F1 Race Intelligence Dashboard & 9-Scene Story Published</span>
+              <span class="ticker-item">{{ author_name }}: F1 Race Intelligence Dashboard & 9-Scene Story Published</span>
               <span class="ticker-item">Max Verstappen leads modern Championship with 4,640 career points & 3 World Titles</span>
               <span class="ticker-item">Red Bull Racing leads Constructor Championship with 8,006 accumulated points</span>
               <span class="ticker-item">Lewis Hamilton holds 6 hybrid titles and 4,491 points</span>
@@ -347,7 +347,7 @@
               <span class="ticker-item">6,464 total race outcomes logged across 29 world circuits and 10 competing teams</span>
               <span class="ticker-item">Modern grid reliability benchmark stands at 91.4% race completion rate</span>
               <!-- Repeated for infinite ticker loop -->
-              <span class="ticker-item">Atharv Prakash Malviya: F1 Race Intelligence Dashboard & 9-Scene Story Published</span>
+              <span class="ticker-item">{{ author_name }}: F1 Race Intelligence Dashboard & 9-Scene Story Published</span>
               <span class="ticker-item">Max Verstappen leads modern Championship with 4,640 career points & 3 World Titles</span>
               <span class="ticker-item">Red Bull Racing leads Constructor Championship with 8,006 accumulated points</span>
               <span class="ticker-item">Lewis Hamilton holds 6 hybrid titles and 4,491 points</span>
@@ -364,19 +364,19 @@
           <!-- Card 1 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-route"></i></div>
-            <h3 class="dimension-title">Circuit Analysis</h3>
+            <h3 class="dimension-title">Circuit Topography & Spatial Analysis</h3>
             <p class="dimension-desc">
-              Track-by-track spatial and telemetry fingerprinting across 29 world circuits from Monza's temple of speed to Bahrain's desert braking zones.
+              Spatial telemetry across 29 host circuits mapping circuit layout, altitude variances, and regional participation volume led by Bahrain (2,168 outcomes) and the USA (400 outcomes).
             </p>
-            <div class="dimension-stat">→ 29 HOST CIRCUITS MAPPED</div>
+            <div class="dimension-stat">→ 29 HOST CIRCUITS CATALOGED</div>
           </div>
 
           <!-- Card 2 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-stopwatch-20"></i></div>
-            <h3 class="dimension-title">Lap Time Breakdown</h3>
+            <h3 class="dimension-title">Lap Sector Splits & Telemetry</h3>
             <p class="dimension-desc">
-              Sector-by-sector time analysis (S1, S2, S3) for every driver across qualifying, practice, and race sessions at millisecond precision.
+              Micro-sector split analysis across S1, S2, and S3 for all modern drivers, tracking apex minimum speeds, speed trap maximums, and purple lap frequency at millisecond precision.
             </p>
             <div class="dimension-stat">→ MILLISECOND PRECISION & DELTAS</div>
           </div>
@@ -384,29 +384,29 @@
           <!-- Card 3 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-compact-disc"></i></div>
-            <h3 class="dimension-title">Tyre Strategy</h3>
+            <h3 class="dimension-title">Tyre Strategy & Degradation Curves</h3>
             <p class="dimension-desc">
-              Soft, Medium, Hard, and Intermediate compound degradation curves, stint length models, and optimal pit window calculations.
+              Pirelli compound distribution across Soft (31.52%), Medium (30.78%), Hard (30.36%), and Intermediate (7.34%), analyzing thermal degradation and undercut pit windows.
             </p>
-            <div class="dimension-stat">→ 4 COMPOUNDS IN PLAY</div>
+            <div class="dimension-stat">→ 4 PIRELLI COMPOUNDS IN PLAY</div>
           </div>
 
           <!-- Card 4 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-users-viewfinder"></i></div>
-            <h3 class="dimension-title">Driver Head-to-Head</h3>
+            <h3 class="dimension-title">Driver Head-to-Head & Leaderboard</h3>
             <p class="dimension-desc">
-              Compare teammates and rivals across qualifying deltas, race pace, podiums, DNFs, and dynamic Top-N leaderboard scoring.
+              Dynamic Top-N parameter scoring (default: 10) benchmarking grid champions like Hamilton, Verstappen, Leclerc, and Norris across career points, win rates, and podium conversion ratios.
             </p>
-            <div class="dimension-stat">→ TOP N DYNAMIC FILTERING</div>
+            <div class="dimension-stat">→ TOP N PARAMETER FILTERING</div>
           </div>
 
           <!-- Card 5 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-chart-line"></i></div>
-            <h3 class="dimension-title">Points Progression</h3>
+            <h3 class="dimension-title">Constructor Championship Progression</h3>
             <p class="dimension-desc">
-              Track multi-season championship point trajectories across 17 seasons (2010–2026), identifying pivotal title-deciding races.
+              Longitudinal points curves tracing Red Bull Racing (8,006 pts) and Mercedes-AMG (7,790 pts) across 17 seasons (2010–2026) through turbo-hybrid and ground-effect regulations.
             </p>
             <div class="dimension-stat">→ 17 SEASONS (2010–2026)</div>
           </div>
@@ -414,9 +414,9 @@
           <!-- Card 6 -->
           <div class="dimension-card">
             <div class="dimension-icon-tile"><i class="fa-solid fa-triangle-exclamation"></i></div>
-            <h3 class="dimension-title">Reliability & DNF Diagnostics</h3>
+            <h3 class="dimension-title">Reliability, DNF & Attrition Diagnostics</h3>
             <p class="dimension-desc">
-              Quantify mechanical versus accident retirements and track how Virtual and physical Safety Cars shaped race outcomes.
+              Root-cause attrition diagnostics categorizing Engine, Collision, Transmission, Suspension, and Brake failures, validating the 91.4% modern grid completion benchmark.
             </p>
             <div class="dimension-stat">→ DNF REASON & ATTRITION DIAGNOSTICS</div>
           </div>
@@ -460,18 +460,18 @@
               </div>
               <span class="window-title">FORMULA 1 RACE INTELLIGENCE DASHBOARD | {{ author_name }}</span>
             </div>
-            <span class="window-badge-pill badge-tableau-public">TABLEAU PUBLIC</span>
+            <span class="window-badge-pill badge-tableau-public">TABLEAU WORKBOOK</span>
           </div>
 
           <!-- Viewport with Live Tableau Embed -->
           <div class="window-viewport" id="dashboardViewport">
             <div class="dashboard-embed-box" id="tableauDashboardContainer">
-              <iframe src="https://public.tableau.com/views/F1RaceIntelligenceDashboard_2/FORMULA1RACEINTELLIGENCEDASHBOARD?:embed=yes&:showVizHome=no&:toolbar=yes&:tabs=no&:showAppBanner=false"
+              <iframe src="{{ tableau_dashboard_embed_url }}"
                       width="100%" height="860" frameborder="0"
                       style="border:none; width:100%; min-height:860px; height:860px; display:block; background:#0a0a0f;"
                       allowfullscreen="true"
                       loading="lazy"
-                      title="Tableau Public Formula 1 Race Intelligence Dashboard"></iframe>
+                      title="Formula 1 Race Intelligence Dashboard | {{ author_name }}"></iframe>
             </div>
           </div>
 
@@ -485,7 +485,7 @@
             </div>
             <div style="display:flex; gap:10px; align-items:center;">
               <a href="{{ tableau_dashboard_url }}" target="_blank" rel="noopener" class="btn-action-outline" id="openExternalDashboard">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open on Tableau Public ↗
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Tableau ↗
               </a>
               <button class="btn-primary" id="openFullscreenDashboard">
                 <i class="fa-solid fa-expand"></i> Full Screen ↗
@@ -532,12 +532,12 @@
           <!-- Viewport with Live Tableau Embed -->
           <div class="window-viewport" id="storyViewport">
             <div class="dashboard-embed-box" id="tableauStoryContainer">
-              <iframe src="https://public.tableau.com/shared/H8573444D?:embed=yes&:showVizHome=no&:toolbar=yes&:tabs=no&:showAppBanner=false"
+              <iframe src="{{ tableau_story_embed_url }}"
                       width="100%" height="860" frameborder="0"
                       style="border:none; width:100%; min-height:860px; height:860px; display:block; background:#0a0a0f;"
                       allowfullscreen="true"
                       loading="lazy"
-                      title="Tableau Public Formula 1 Story"></iframe>
+                      title="Formula 1 Race Intelligence Story | {{ author_name }}"></iframe>
             </div>
           </div>
 
@@ -550,7 +550,7 @@
             </div>
             <div style="display:flex; gap:10px; align-items:center;">
               <a href="{{ tableau_story_url }}" target="_blank" rel="noopener" class="btn-action-outline" id="openExternalStory">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open on Tableau Public ↗
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Tableau ↗
               </a>
               <button class="btn-primary" id="openFullscreenStory">
                 <i class="fa-solid fa-expand"></i> Full Screen ↗
@@ -986,7 +986,7 @@
             <!-- Social Links -->
             <div>
               <div class="contact-socials">
-                <a href="https://public.tableau.com/app/profile/atharv.malviya" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Tableau Public Profile">
+                <a href="{{ tableau_profile_url }}" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Tableau Public Profile">
                   <i class="fa-solid fa-chart-column"></i>
                 </a>
                 <a href="https://github.com" target="_blank" rel="noopener" class="social-circle-btn" aria-label="GitHub Repository">

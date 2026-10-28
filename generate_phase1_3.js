@@ -33,7 +33,7 @@ function createWordDoc(title, bodyContent) {
 <body>
 ${bodyContent}
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Atharv Prakash Malviya &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Tanisha Patel &bull; Phase Documentation
 </div>
 </body>
 </html>`;
@@ -56,7 +56,7 @@ const p1_brainstorm_md = `# Ideation Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 31 January 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 4 Marks |
 
@@ -67,12 +67,12 @@ Brainstorming provides an open environment for creative exploration. Below are t
 
 | S.No | Team Member | Idea / Suggestion | Category | Group No. |
 | :---: | :--- | :--- | :--- | :---: |
-| 1 | Atharv Prakash Malviya | Build an interactive hybrid-era Driver Performance Leaderboard indexing points and win rates across 6,464 race records (Lewis Hamilton 31,147 pts, Max Verstappen 31,126 pts). | Driver Analytics | 1 |
-| 2 | Atharv Prakash Malviya | Develop a Constructor Championship Supremacy analyzer tracking Red Bull Racing (8,006 pts) and Mercedes AMG (7,790 pts) points trajectories and title progression. | Team Analytics | 1 |
-| 3 | Atharv Prakash Malviya | Create a Pirelli compound strategy breakdown examining 3,814 telemetry laps (Soft 31.52%, Medium 30.78%, Hard 30.36%, Intermediate 7.34%) for tire degradation windows. | Race Strategy | 2 |
-| 4 | Atharv Prakash Malviya | Construct a high-precision Pit Stop Execution analyzer benchmarking team stop times and evaluating undercut/overcut tactical windows (Ferrari record 2.18s avg). | Strategy & Telemetry | 2 |
-| 5 | Atharv Prakash Malviya | Implement a Global Grand Prix geographic distribution and circuit participation map across 29 worldwide championship circuits (Bahrain 2,168 logged outcomes). | Circuit Telemetry | 3 |
-| 6 | Atharv Prakash Malviya | Design a DNF & Mechanical Reliability root-cause classifier analyzing powertrain, suspension, and collision retirements across circuits. | Reliability Analytics | 4 |
+| 1 | Tanisha Patel | Build an interactive hybrid-era Driver Performance Leaderboard indexing points and win rates across 6,464 race records (Lewis Hamilton 31,147 pts, Max Verstappen 31,126 pts). | Driver Analytics | 1 |
+| 2 | Tanisha Patel | Develop a Constructor Championship Supremacy analyzer tracking Red Bull Racing (8,006 pts) and Mercedes AMG (7,790 pts) points trajectories and title progression. | Team Analytics | 1 |
+| 3 | Tanisha Patel | Create a Pirelli compound strategy breakdown examining 3,814 telemetry laps (Soft 31.52%, Medium 30.78%, Hard 30.36%, Intermediate 7.34%) for tire degradation windows. | Race Strategy | 2 |
+| 4 | Tanisha Patel | Construct a high-precision Pit Stop Execution analyzer benchmarking team stop times and evaluating undercut/overcut tactical windows (Ferrari record 2.18s avg). | Strategy & Telemetry | 2 |
+| 5 | Tanisha Patel | Implement a Global Grand Prix geographic distribution and circuit participation map across 29 worldwide championship circuits (Bahrain 2,168 logged outcomes). | Circuit Telemetry | 3 |
+| 6 | Tanisha Patel | Design a DNF & Mechanical Reliability root-cause classifier analyzing powertrain, suspension, and collision retirements across circuits. | Reliability Analytics | 4 |
 
 ---
 
@@ -90,7 +90,7 @@ Rating grouped concepts on feasibility and business importance to define core pl
 const p1_brainstorm_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Brainstorm & Idea Prioritization Template</td><td><strong>Max Marks:</strong> 4 Marks</td></tr>
   </table>
@@ -102,12 +102,12 @@ const p1_brainstorm_html = `
 <h2>Step 1: Brainstorm and Idea Listing</h2>
 <table>
   <tr><th>S.No</th><th>Team Member</th><th>Idea / Suggestion</th><th>Category</th><th>Group No.</th></tr>
-  <tr><td>1</td><td>Atharv Prakash Malviya</td><td>Interactive hybrid-era Driver Performance Leaderboard indexing points and win rates across 6,464 race records (Lewis Hamilton 31,147 pts, Max Verstappen 31,126 pts).</td><td>Driver Analytics</td><td>1</td></tr>
-  <tr><td>2</td><td>Atharv Prakash Malviya</td><td>Constructor Championship Supremacy analyzer tracking Red Bull Racing (8,006 pts) and Mercedes AMG (7,790 pts) points trajectories and title progression.</td><td>Team Analytics</td><td>1</td></tr>
-  <tr><td>3</td><td>Atharv Prakash Malviya</td><td>Pirelli compound strategy breakdown examining 3,814 telemetry laps (Soft 31.52%, Medium 30.78%, Hard 30.36%, Intermediate 7.34%) for tire degradation windows.</td><td>Race Strategy</td><td>2</td></tr>
-  <tr><td>4</td><td>Atharv Prakash Malviya</td><td>High-precision Pit Stop Execution analyzer benchmarking team stop times and evaluating undercut/overcut tactical windows (Ferrari record 2.18s avg).</td><td>Strategy & Telemetry</td><td>2</td></tr>
-  <tr><td>5</td><td>Atharv Prakash Malviya</td><td>Global Grand Prix geographic distribution and circuit participation map across 29 worldwide championship circuits (Bahrain 2,168 logged outcomes).</td><td>Circuit Telemetry</td><td>3</td></tr>
-  <tr><td>6</td><td>Atharv Prakash Malviya</td><td>DNF & Mechanical Reliability root-cause classifier analyzing powertrain, suspension, and collision retirements across circuits.</td><td>Reliability Analytics</td><td>4</td></tr>
+  <tr><td>1</td><td>Tanisha Patel</td><td>Interactive hybrid-era Driver Performance Leaderboard indexing points and win rates across 6,464 race records (Lewis Hamilton 31,147 pts, Max Verstappen 31,126 pts).</td><td>Driver Analytics</td><td>1</td></tr>
+  <tr><td>2</td><td>Tanisha Patel</td><td>Constructor Championship Supremacy analyzer tracking Red Bull Racing (8,006 pts) and Mercedes AMG (7,790 pts) points trajectories and title progression.</td><td>Team Analytics</td><td>1</td></tr>
+  <tr><td>3</td><td>Tanisha Patel</td><td>Pirelli compound strategy breakdown examining 3,814 telemetry laps (Soft 31.52%, Medium 30.78%, Hard 30.36%, Intermediate 7.34%) for tire degradation windows.</td><td>Race Strategy</td><td>2</td></tr>
+  <tr><td>4</td><td>Tanisha Patel</td><td>High-precision Pit Stop Execution analyzer benchmarking team stop times and evaluating undercut/overcut tactical windows (Ferrari record 2.18s avg).</td><td>Strategy & Telemetry</td><td>2</td></tr>
+  <tr><td>5</td><td>Tanisha Patel</td><td>Global Grand Prix geographic distribution and circuit participation map across 29 worldwide championship circuits (Bahrain 2,168 logged outcomes).</td><td>Circuit Telemetry</td><td>3</td></tr>
+  <tr><td>6</td><td>Tanisha Patel</td><td>DNF & Mechanical Reliability root-cause classifier analyzing powertrain, suspension, and collision retirements across circuits.</td><td>Reliability Analytics</td><td>4</td></tr>
 </table>
 
 <h2>Step 2: Idea Prioritization</h2>
@@ -131,7 +131,7 @@ const p1_problem_md = `# Ideation Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 31 January 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 2 Marks |
 
@@ -159,7 +159,7 @@ Articulating the core challenges from the perspective of key motorsport personas
 const p1_problem_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Define Problem Statements Template</td><td><strong>Max Marks:</strong> 2 Marks</td></tr>
   </table>
@@ -201,7 +201,7 @@ const p1_empathy_md = `# Ideation Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 31 January 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 4 Marks |
 
@@ -240,7 +240,7 @@ const p1_empathy_md = `# Ideation Phase
 const p1_empathy_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Ideation Phase</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Empathy Map Canvas</td><td><strong>Max Marks:</strong> 4 Marks</td></tr>
   </table>
@@ -303,7 +303,7 @@ const p2_cjm_md = `# Requirement Analysis Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Customer Journey Map |
 
@@ -323,7 +323,7 @@ const p2_cjm_md = `# Requirement Analysis Phase
 const p2_cjm_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Customer Journey Map</td><td><strong>Format:</strong> Structured Matrix</td></tr>
   </table>
@@ -388,7 +388,7 @@ const p2_dfd_md = `# Requirement Analysis Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 31 January 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 4 Marks |
 
@@ -440,7 +440,7 @@ flowchart TD
 const p2_dfd_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> DFD & User Stories Template</td><td><strong>Max Marks:</strong> 4 Marks</td></tr>
   </table>
@@ -485,7 +485,7 @@ const p2_req_md = `# Requirement Analysis Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 31 January 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 4 Marks |
 
@@ -521,7 +521,7 @@ const p2_req_md = `# Requirement Analysis Phase
 const p2_req_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Solution Requirements Template</td><td><strong>Max Marks:</strong> 4 Marks</td></tr>
   </table>
@@ -565,7 +565,7 @@ const p2_tech_md = `# Requirement Analysis Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 31 January 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 2 Marks |
 
@@ -587,7 +587,7 @@ const p2_tech_md = `# Requirement Analysis Phase
 const p2_tech_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Requirement Analysis</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Technology Stack Template</td><td><strong>Max Marks:</strong> 2 Marks</td></tr>
   </table>
@@ -619,7 +619,7 @@ const p3_proposal_md = `# Project Design Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 15 March 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Title** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 3 Marks |
 
@@ -655,13 +655,13 @@ const p3_proposal_md = `# Project Design Phase
 | **Hardware** | Modern Quad-Core CPU, 8 GB+ RAM, 500 MB Storage | Supports smooth local data processing, Chart.js canvas rendering, and 60fps CSS animations. |
 | **Software & Frameworks** | Node.js v24+, Python 3.13, OpenPyXL, Pillow, Chart.js 4.4, Font Awesome 6 | Lightweight, robust toolchain requiring zero heavy frontend frameworks (React/Angular). |
 | **Data Sources** | \`F1 Racing Project Dataset.xlsx\` (6,464 rows, 42 columns across 5 sheets) | Real-world historical Grand Prix records, qualifying telemetry, and championship standings. |
-| **Personnel** | **Atharv Prakash Malviya** (Project Lead, Telemetry Engineer & Full-Stack Developer) | End-to-end design, data engineering, UI development, and documentation. |
+| **Personnel** | **Tanisha Patel** (Project Lead, Telemetry Engineer & Full-Stack Developer) | End-to-end design, data engineering, UI development, and documentation. |
 `;
 
 const p3_proposal_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Project Proposal Template</td><td><strong>Max Marks:</strong> 3 Marks</td></tr>
   </table>
@@ -689,7 +689,7 @@ const p3_proposal_html = `
   <tr><td>Hardware</td><td>Computing Resources & Memory</td><td>Standard Quad-Core CPU, 8 GB RAM, 1 GB Disk</td></tr>
   <tr><td>Software Libraries</td><td>Scripting & Visualization</td><td>Python 3.13, OpenPyXL, Node.js, Chart.js, Font Awesome 6</td></tr>
   <tr><td>Dataset</td><td>Formula 1 Project Data</td><td>F1 Racing Project Dataset.xlsx (6,464 outcomes, 3,814 laps, 29 circuits)</td></tr>
-  <tr><td>Personnel</td><td>Lead Engineer & Author</td><td><strong>Atharv Prakash Malviya</strong> (Full-Stack Data Engineering & UI/UX Design)</td></tr>
+  <tr><td>Personnel</td><td>Lead Engineer & Author</td><td><strong>Tanisha Patel</strong> (Full-Stack Data Engineering & UI/UX Design)</td></tr>
 </table>
 `;
 
@@ -704,7 +704,7 @@ const p3_arch_md = `# Project Design Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 19 September 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 4 Marks |
 
@@ -760,7 +760,7 @@ flowchart TD
 const p3_arch_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Solution Architecture Document</td><td><strong>Max Marks:</strong> 4 Marks</td></tr>
   </table>
@@ -801,7 +801,7 @@ const p3_fit_md = `# Project Design Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 19 September 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 2 Marks |
 
@@ -821,7 +821,7 @@ Confirming that every identified customer problem is directly solved by an imple
 const p3_fit_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Design Phase</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Problem - Solution Fit Template</td><td><strong>Max Marks:</strong> 2 Marks</td></tr>
   </table>

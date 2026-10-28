@@ -33,7 +33,7 @@ function createWordDoc(title, bodyContent) {
 <body>
 ${bodyContent}
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Atharv Prakash Malviya &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Tanisha Patel &bull; Phase Documentation
 </div>
 </body>
 </html>`;
@@ -56,7 +56,7 @@ const p7_report_md = `# Project Documentation Phase
 | Document Metadata | Details |
 | :--- | :--- |
 | **Project Title** | Formula 1 Race Intelligence: From Global Overview to Championship Success |
-| **Author / Lead Engineer** | **Atharv Prakash Malviya** |
+| **Author / Lead Engineer** | **Tanisha Patel** |
 | **Date of Submission** | October 2026 |
 | **Domain** | Motorsport Data Science, Telemetry Analytics & Business Intelligence |
 | **Primary Tools** | Tableau Public, Python 3.13, Snowflake, HTML5, CSS3, Vanilla JS ES6+ |
@@ -123,17 +123,17 @@ The platform successfully meets all functional and non-functional requirements w
 const p7_report_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Deliverable:</strong> Comprehensive Final Project Report</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Domain:</strong> Motorsport Analytics & BI</td><td><strong>Status:</strong> Completed & Verified</td></tr>
   </table>
 </div>
 
 <h1>Formula 1 Race Intelligence – Comprehensive Final Project Report</h1>
-<p><strong>Lead Author:</strong> Atharv Prakash Malviya | <strong>Domain:</strong> Motorsport Telemetry & Business Intelligence</p>
+<p><strong>Lead Author:</strong> Tanisha Patel | <strong>Domain:</strong> Motorsport Telemetry & Business Intelligence</p>
 
 <h2>Executive Summary</h2>
-<p>The Formula 1 Race Intelligence platform is an end-to-end data analytics and visual intelligence terminal analyzing 6,464 race outcomes, 3,814 telemetry laps, and 29 world circuits across 17 seasons (2010–2026). Developed by Atharv Prakash Malviya, the platform unites automated Python ETL pipelines, Snowflake star schemas, Tableau Public storytelling, and a zero-dependency HTML5/CSS3/ES6+ web terminal in a strict Formula 1 Black & Red broadcast design system (#0a0a0a, #e10600).</p>
+<p>The Formula 1 Race Intelligence platform is an end-to-end data analytics and visual intelligence terminal analyzing 6,464 race outcomes, 3,814 telemetry laps, and 29 world circuits across 17 seasons (2010–2026). Developed by Tanisha Patel, the platform unites automated Python ETL pipelines, Snowflake star schemas, Tableau Public storytelling, and a zero-dependency HTML5/CSS3/ES6+ web terminal in a strict Formula 1 Black & Red broadcast design system (#0a0a0a, #e10600).</p>
 
 <h2>Core Architectural Framework</h2>
 <table>
@@ -167,14 +167,14 @@ const p8_demo_plan_md = `# Project Demonstration Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Presenter** | **Atharv Prakash Malviya** |
+| **Author / Presenter** | **Tanisha Patel** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Project Demonstration Planning Guide |
 
 ---
 
 ### Demonstration Logistics & Overview
-* **Presenter:** Atharv Prakash Malviya (Lead Engineer & Telemetry Architect).
+* **Presenter:** Tanisha Patel (Lead Engineer & Telemetry Architect).
 * **Target Audience:** Project Review Committee, Motorsport Data Analysts, Academic Evaluators, Peer Engineers.
 * **Duration:** 15 Minutes (10 min Live Walkthrough + 5 min Technical Q&A).
 * **Demonstration Environment:**
@@ -200,7 +200,7 @@ const p8_demo_plan_md = `# Project Demonstration Phase
 const p8_demo_plan_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Project Demo Planning Guide</td><td><strong>Duration:</strong> 15 Minutes</td></tr>
   </table>
@@ -211,7 +211,7 @@ const p8_demo_plan_html = `
 
 <h2>Demonstration Timeline (15 Minutes)</h2>
 <table>
-  <tr><th>Timeline</th><th>Demonstration Segment</th><th>Presenter Actions (Atharv Prakash Malviya)</th></tr>
+  <tr><th>Timeline</th><th>Demonstration Segment</th><th>Presenter Actions (Tanisha Patel)</th></tr>
   <tr><td>00:00 – 01:30</td><td>Introduction & Architecture</td><td>Present telemetry challenges, dataset scope (6,464 outcomes), and 4-tier architecture.</td></tr>
   <tr><td>01:30 – 03:00</td><td>Hero & Start Sequence</td><td>Trigger F1 5-light start sequence, showcase count-up stats, explain split-tone skyline.</td></tr>
   <tr><td>03:00 – 05:00</td><td>Vector Track & Live Ticker</td><td>Demonstrate animated SVG racing circuit, DRS straight, and real-time facts marquee ticker.</td></tr>
@@ -233,7 +233,7 @@ const p8_features_md = `# Project Demonstration Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Presenter** | **Atharv Prakash Malviya** |
+| **Author / Presenter** | **Tanisha Patel** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Feature Demonstration Script & Validation |
 
@@ -258,7 +258,7 @@ const p8_features_md = `# Project Demonstration Phase
 const p8_features_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Demonstration of Proposed Features</td><td><strong>Status:</strong> All Verified</td></tr>
   </table>
@@ -293,7 +293,7 @@ const p8_team_md = `# Project Demonstration Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Lead Presenter** | **Atharv Prakash Malviya** |
+| **Author / Lead Presenter** | **Tanisha Patel** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Presenter Roles & Operational Responsibilities |
 
@@ -301,21 +301,21 @@ const p8_team_md = `# Project Demonstration Phase
 
 ### Project Leadership & Individual Contribution
 
-The **Formula 1 Race Intelligence** project was architected, engineered, and demonstrated individually by **Atharv Prakash Malviya**. Below is the detailed mapping of individual functional roles and demonstration responsibilities:
+The **Formula 1 Race Intelligence** project was architected, engineered, and demonstrated individually by **Tanisha Patel**. Below is the detailed mapping of individual functional roles and demonstration responsibilities:
 
 | Functional Role | Lead Engineer | Key Demonstration Responsibilities |
 | :--- | :--- | :--- |
-| **Project Lead & Domain Architect** | **Atharv Prakash Malviya** | Delivers project introduction, frames problem statements (PS-1, PS-2), explains domain significance, and introduces the F1 hybrid-era regulatory backdrop. |
-| **Data Engineer & ETL Specialist** | **Atharv Prakash Malviya** | Demonstrates Python data ingestion (\`process_f1_dataset.py\`), Snowflake star schema design, null handling, deduplication logic, and offline \`data.js\` zero-CORS compilation. |
-| **BI & Tableau Visualization Lead** | **Atharv Prakash Malviya** | Walks through the 8 Tableau dashboard panels and 7-part storytelling narrative, explaining calculated fields, multi-dimensional filters, and insight findings. |
-| **Front-End & UI/UX Developer** | **Atharv Prakash Malviya** | Showcases responsive HTML5/CSS3/ES6+ implementation, F1 start-light preloader, SVG circuit animation engine, live ticker marquee, driver grid search, and contact terminal. |
-| **Quality Assurance & Performance Tester** | **Atharv Prakash Malviya** | Presents performance testing results, Lighthouse 95/100 audit scores, 60fps animation framerates, WCAG contrast compliance, and defends technical architecture during Q&A. |
+| **Project Lead & Domain Architect** | **Tanisha Patel** | Delivers project introduction, frames problem statements (PS-1, PS-2), explains domain significance, and introduces the F1 hybrid-era regulatory backdrop. |
+| **Data Engineer & ETL Specialist** | **Tanisha Patel** | Demonstrates Python data ingestion (\`process_f1_dataset.py\`), Snowflake star schema design, null handling, deduplication logic, and offline \`data.js\` zero-CORS compilation. |
+| **BI & Tableau Visualization Lead** | **Tanisha Patel** | Walks through the 8 Tableau dashboard panels and 7-part storytelling narrative, explaining calculated fields, multi-dimensional filters, and insight findings. |
+| **Front-End & UI/UX Developer** | **Tanisha Patel** | Showcases responsive HTML5/CSS3/ES6+ implementation, F1 start-light preloader, SVG circuit animation engine, live ticker marquee, driver grid search, and contact terminal. |
+| **Quality Assurance & Performance Tester** | **Tanisha Patel** | Presents performance testing results, Lighthouse 95/100 audit scores, 60fps animation framerates, WCAG contrast compliance, and defends technical architecture during Q&A. |
 `;
 
 const p8_team_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Team Involvement in Demonstration</td><td><strong>Structure:</strong> Individual Leadership</td></tr>
   </table>
@@ -324,14 +324,14 @@ const p8_team_html = `
 <h1>Team Involvement in Demonstration</h1>
 <p>Documenting presenter responsibilities, technical domain ownership, and presentation execution roles.</p>
 
-<h2>Presenter Role Mapping (Atharv Prakash Malviya)</h2>
+<h2>Presenter Role Mapping (Tanisha Patel)</h2>
 <table>
   <tr><th>Functional Role</th><th>Owner</th><th>Operational & Demonstration Focus</th></tr>
-  <tr><td>Project Lead</td><td>Atharv Prakash Malviya</td><td>Project introduction, domain motivation, problem articulation, and conclusion.</td></tr>
-  <tr><td>Data Engineer</td><td>Atharv Prakash Malviya</td><td>Python ETL pipeline, Snowflake schema modeling, data cleansing, and JSON compilation.</td></tr>
-  <tr><td>BI Architect</td><td>Atharv Prakash Malviya</td><td>Tableau Public dashboard design, story points navigation, and calculated measures.</td></tr>
-  <tr><td>Front-End Engineer</td><td>Atharv Prakash Malviya</td><td>Black & Red F1 design system, SVG racing track, live data ticker, and driver filters.</td></tr>
-  <tr><td>QA & Defense Lead</td><td>Atharv Prakash Malviya</td><td>Performance testing validation, cross-browser compatibility, and viva question defense.</td></tr>
+  <tr><td>Project Lead</td><td>Tanisha Patel</td><td>Project introduction, domain motivation, problem articulation, and conclusion.</td></tr>
+  <tr><td>Data Engineer</td><td>Tanisha Patel</td><td>Python ETL pipeline, Snowflake schema modeling, data cleansing, and JSON compilation.</td></tr>
+  <tr><td>BI Architect</td><td>Tanisha Patel</td><td>Tableau Public dashboard design, story points navigation, and calculated measures.</td></tr>
+  <tr><td>Front-End Engineer</td><td>Tanisha Patel</td><td>Black & Red F1 design system, SVG racing track, live data ticker, and driver filters.</td></tr>
+  <tr><td>QA & Defense Lead</td><td>Tanisha Patel</td><td>Performance testing validation, cross-browser compatibility, and viva question defense.</td></tr>
 </table>
 `;
 
@@ -346,16 +346,16 @@ const p8_comm_md = `# Project Demonstration Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Presenter** | **Atharv Prakash Malviya** |
+| **Author / Presenter** | **Tanisha Patel** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Verbal Presentation Script & Viva Defense Guide |
 
 ---
 
-### Verbatim Presentation Script (Atharv Prakash Malviya)
+### Verbatim Presentation Script (Tanisha Patel)
 
 #### 1. Opening & Hook (00:00 – 01:30)
-> *"Good morning, respected evaluation committee and peers. My name is **Atharv Prakash Malviya**, and today I am excited to present **Formula 1 Race Intelligence: From Global Overview to Championship Success**. Formula 1 is the pinnacle of motorsport engineering, where races are decided by milliseconds and tire degradation fractions. However, telemetry data is notoriously fragmented across disjointed spreadsheets. Our mission was to transform 6,464 historical and modern race outcomes, 3,814 telemetry laps, and 29 world circuits into an authoritative, broadcast-grade analytics terminal."*
+> *"Good morning, respected evaluation committee and peers. My name is **Tanisha Patel**, and today I am excited to present **Formula 1 Race Intelligence: From Global Overview to Championship Success**. Formula 1 is the pinnacle of motorsport engineering, where races are decided by milliseconds and tire degradation fractions. However, telemetry data is notoriously fragmented across disjointed spreadsheets. Our mission was to transform 6,464 historical and modern race outcomes, 3,814 telemetry laps, and 29 world circuits into an authoritative, broadcast-grade analytics terminal."*
 
 #### 2. Hero & Design System Showcase (01:30 – 03:30)
 > *"As you see on my screen, we open with an authentic F1 5-light start sequence. When the five red lights extinguish—'Lights out and away we go!'—we reveal our strict Formula 1 Black and Official Red (#e10600) broadcast interface. Notice our hero metrics counting up: 75+ seasons analyzed, 1K+ races covered, 20 active drivers, and 10 constructors, backed by a high-contrast architectural skyline blending into red telemetry scanlines."*
@@ -373,26 +373,26 @@ const p8_comm_md = `# Project Demonstration Phase
 
 ### Technical Viva Defense Questions & Answers
 * **Q1: How did you resolve the Tableau join fan-out where Lewis Hamilton's points appeared as 31,147 instead of 4,491?**
-  * *Answer by Atharv Prakash Malviya:* When joining 6,464 race result rows with championship standings on driver name, Tableau multiplies standings points across race occurrences. In our Python ETL pipeline and Snowflake queries, we isolated pure career standings (4,491 points) into a dedicated dimensional mart (\`MART_DRIVER_CAREER\`) while preserving the composite performance index (31,147) for the broadcast leaderboard.
+  * *Answer by Tanisha Patel:* When joining 6,464 race result rows with championship standings on driver name, Tableau multiplies standings points across race occurrences. In our Python ETL pipeline and Snowflake queries, we isolated pure career standings (4,491 points) into a dedicated dimensional mart (\`MART_DRIVER_CAREER\`) while preserving the composite performance index (31,147) for the broadcast leaderboard.
 * **Q2: Why did you implement \`data.js\` alongside the JSON files?**
-  * *Answer by Atharv Prakash Malviya:* Browsers enforce strict CORS policies preventing \`fetch()\` from accessing local JSON files when opened via \`file:///\`. By embedding the clean telemetry object in \`data.js\` and loading it synchronously, our application is guaranteed to run by simply double-clicking \`index.html\` on any computer without needing a local HTTP server.
+  * *Answer by Tanisha Patel:* Browsers enforce strict CORS policies preventing \`fetch()\` from accessing local JSON files when opened via \`file:///\`. By embedding the clean telemetry object in \`data.js\` and loading it synchronously, our application is guaranteed to run by simply double-clicking \`index.html\` on any computer without needing a local HTTP server.
 `;
 
 const p8_comm_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Presenter:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Presentation Script & Viva Guide</td><td><strong>Format:</strong> Verbatim Narrative</td></tr>
   </table>
 </div>
 
 <h1>Communication Script & Presentation Guide</h1>
-<p>Verbatim spoken presentation script and technical defense Q&A guide for Atharv Prakash Malviya.</p>
+<p>Verbatim spoken presentation script and technical defense Q&A guide for Tanisha Patel.</p>
 
 <h2>Verbatim Presentation Script Highlights</h2>
 <ul>
-  <li><strong>Opening:</strong> <em>"Good morning, committee. My name is Atharv Prakash Malviya, and today I present Formula 1 Race Intelligence..."</em></li>
+  <li><strong>Opening:</strong> <em>"Good morning, committee. My name is Tanisha Patel, and today I present Formula 1 Race Intelligence..."</em></li>
   <li><strong>Design System:</strong> Explaining the F1 5-light sequence, count-up stats, and strict Black & Red broadcast theme.</li>
   <li><strong>Technical Features:</strong> Highlighting the animated SVG track, live marquee ticker, and 8-panel Tableau dashboard.</li>
   <li><strong>Data Integrity:</strong> Demonstrating real-time driver search, season filters (2010–2026), and Chart.js charts.</li>
@@ -400,7 +400,7 @@ const p8_comm_html = `
 
 <h2>Viva Defense Q&A Preparation</h2>
 <table>
-  <tr><th>Question</th><th>Strategic Answer (Atharv Prakash Malviya)</th></tr>
+  <tr><th>Question</th><th>Strategic Answer (Tanisha Patel)</th></tr>
   <tr>
     <td>Why choose vanilla JS over React or Angular?</td>
     <td>Vanilla JS eliminates heavy bundle overhead, achieves a 95/100 Lighthouse score, and allows instant offline execution by double-clicking index.html.</td>
@@ -427,7 +427,7 @@ const p8_scale_md = `# Project Demonstration Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | October 2026 |
-| **Author / Lead Architect** | **Atharv Prakash Malviya** |
+| **Author / Lead Architect** | **Tanisha Patel** |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Architecture Scalability & Future Roadmap |
 
@@ -462,7 +462,7 @@ flowchart LR
 const p8_scale_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Lead Architect:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Demonstration</td><td><strong>Lead Architect:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Scalability & Future Roadmap</td><td><strong>Horizon:</strong> 2027 – 2028</td></tr>
   </table>

@@ -35,7 +35,7 @@ function createWordDoc(title, bodyContent) {
 <body>
 ${bodyContent}
 <div class='footer-note'>
-  Formula 1 Race Intelligence &bull; Author: Atharv Prakash Malviya &bull; Phase Documentation
+  Formula 1 Race Intelligence &bull; Author: Tanisha Patel &bull; Phase Documentation
 </div>
 </body>
 </html>`;
@@ -58,7 +58,7 @@ const p4_plan_md = `# Project Planning Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 18 October 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 8 Marks |
 
@@ -68,20 +68,20 @@ const p4_plan_md = `# Project Planning Phase
 
 | Sprint | Functional Requirement (Epic) | User Story Number | User Story / Task Description | Story Points | Priority | Owner / Assignee |
 | :---: | :--- | :---: | :--- | :---: | :---: | :--- |
-| **Sprint-1** | Environment & ETL Ingestion | **USN-01** | Develop Python ETL parser (\`process_f1_dataset.py\`) to ingest 5 sheets (6,464 race results, 3,814 laps, 29 circuits). | 5 | High | Atharv Prakash Malviya |
-| **Sprint-1** | Data Cleaning & Normalization | **USN-02** | Remove placeholder records (\`Driver_2\`, \`Team_2\`), correct encoding artifacts, and compute JSON aggregates. | 3 | High | Atharv Prakash Malviya |
-| **Sprint-1** | Design System & Framework Setup | **USN-03** | Construct strict F1 Black & Red CSS design system (\`#0a0a0a\`, \`#e10600\`, Orbitron typography, glow borders). | 5 | High | Atharv Prakash Malviya |
-| **Sprint-1** | Start Sequence & Hero Terminal | **USN-04** | Build F1 5-light start sequence preloader ("Lights Out"), count-up stats strip, and split-tone hero layout. | 5 | High | Atharv Prakash Malviya |
-| **Sprint-1** | Animated Circuit Engine | **USN-05** | Implement hardware-accelerated animated SVG race circuit with traveling car dot, S1–S3 markers, and DRS bar. | 4 | Medium | Atharv Prakash Malviya |
-| **Sprint-2** | Tableau Dashboard Construction | **USN-06** | Model and build 8 core analytical panels in Tableau Public (Leaderboard, Reliability, Map, Tyres, Teams, Podiums). | 6 | High | Atharv Prakash Malviya |
-| **Sprint-2** | Tableau Story Chaptering | **USN-07** | Design 7-point interactive narrative story in Tableau Public and implement browser window frame container. | 5 | High | Atharv Prakash Malviya |
-| **Sprint-2** | Interactive Inline Visualizations | **USN-08** | Implement 4 dynamic Chart.js charts (Leaderboard, Constructor points, Tyre compound share, DNF failure causes). | 5 | High | Atharv Prakash Malviya |
-| **Sprint-3** | Driver Grid Search & Filtering | **USN-09** | Build live driver grid with real-time text search, multi-season dropdown (2010–2026), and sorting algorithms. | 5 | High | Atharv Prakash Malviya |
-| **Sprint-3** | Lightbox Artifact Gallery | **USN-10** | Create masonry artifact gallery with zoom lightbox, keyboard navigation (<kbd>←</kbd> / <kbd>→</kbd> / <kbd>Esc</kbd>), and captions. | 3 | Medium | Atharv Prakash Malviya |
-| **Sprint-3** | Terminal Form Validation & Toast | **USN-11** | Build client-side validated contact terminal with animated transmitting state and green/red toast alerts. | 3 | Medium | Atharv Prakash Malviya |
-| **Sprint-4** | Zero-CORS Offline Optimization | **USN-12** | Compile synchronous \`data.js\` data store ensuring 100% offline double-click readiness without local server. | 4 | High | Atharv Prakash Malviya |
-| **Sprint-4** | End-to-End Testing & Verification | **USN-13** | Run responsive testing across desktop, tablet, and mobile; verify color contrast ratio $\ge 4.5:1$ and Lighthouse $\ge 90$. | 4 | High | Atharv Prakash Malviya |
-| **Sprint-4** | Project Documentation & Delivery | **USN-14** | Author complete project documentation, reports, presentation scripts, and README guides. | 3 | High | Atharv Prakash Malviya |
+| **Sprint-1** | Environment & ETL Ingestion | **USN-01** | Develop Python ETL parser (\`process_f1_dataset.py\`) to ingest 5 sheets (6,464 race results, 3,814 laps, 29 circuits). | 5 | High | Tanisha Patel |
+| **Sprint-1** | Data Cleaning & Normalization | **USN-02** | Remove placeholder records (\`Driver_2\`, \`Team_2\`), correct encoding artifacts, and compute JSON aggregates. | 3 | High | Tanisha Patel |
+| **Sprint-1** | Design System & Framework Setup | **USN-03** | Construct strict F1 Black & Red CSS design system (\`#0a0a0a\`, \`#e10600\`, Orbitron typography, glow borders). | 5 | High | Tanisha Patel |
+| **Sprint-1** | Start Sequence & Hero Terminal | **USN-04** | Build F1 5-light start sequence preloader ("Lights Out"), count-up stats strip, and split-tone hero layout. | 5 | High | Tanisha Patel |
+| **Sprint-1** | Animated Circuit Engine | **USN-05** | Implement hardware-accelerated animated SVG race circuit with traveling car dot, S1–S3 markers, and DRS bar. | 4 | Medium | Tanisha Patel |
+| **Sprint-2** | Tableau Dashboard Construction | **USN-06** | Model and build 8 core analytical panels in Tableau Public (Leaderboard, Reliability, Map, Tyres, Teams, Podiums). | 6 | High | Tanisha Patel |
+| **Sprint-2** | Tableau Story Chaptering | **USN-07** | Design 7-point interactive narrative story in Tableau Public and implement browser window frame container. | 5 | High | Tanisha Patel |
+| **Sprint-2** | Interactive Inline Visualizations | **USN-08** | Implement 4 dynamic Chart.js charts (Leaderboard, Constructor points, Tyre compound share, DNF failure causes). | 5 | High | Tanisha Patel |
+| **Sprint-3** | Driver Grid Search & Filtering | **USN-09** | Build live driver grid with real-time text search, multi-season dropdown (2010–2026), and sorting algorithms. | 5 | High | Tanisha Patel |
+| **Sprint-3** | Lightbox Artifact Gallery | **USN-10** | Create masonry artifact gallery with zoom lightbox, keyboard navigation (<kbd>←</kbd> / <kbd>→</kbd> / <kbd>Esc</kbd>), and captions. | 3 | Medium | Tanisha Patel |
+| **Sprint-3** | Terminal Form Validation & Toast | **USN-11** | Build client-side validated contact terminal with animated transmitting state and green/red toast alerts. | 3 | Medium | Tanisha Patel |
+| **Sprint-4** | Zero-CORS Offline Optimization | **USN-12** | Compile synchronous \`data.js\` data store ensuring 100% offline double-click readiness without local server. | 4 | High | Tanisha Patel |
+| **Sprint-4** | End-to-End Testing & Verification | **USN-13** | Run responsive testing across desktop, tablet, and mobile; verify color contrast ratio $\ge 4.5:1$ and Lighthouse $\ge 90$. | 4 | High | Tanisha Patel |
+| **Sprint-4** | Project Documentation & Delivery | **USN-14** | Author complete project documentation, reports, presentation scripts, and README guides. | 3 | High | Tanisha Patel |
 
 ---
 
@@ -111,7 +111,7 @@ const p4_plan_md = `# Project Planning Phase
 const p4_plan_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Planning Phase</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Planning Phase</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Project Planning & Sprint Schedule</td><td><strong>Max Marks:</strong> 8 Marks</td></tr>
   </table>
@@ -123,20 +123,20 @@ const p4_plan_html = `
 <h2>Product Backlog & Sprint Schedule (4 Marks)</h2>
 <table>
   <tr><th>Sprint</th><th>Epic</th><th>USN</th><th>Task Description</th><th>Story Pts</th><th>Priority</th><th>Assignee</th></tr>
-  <tr><td>Sprint-1</td><td>Data Ingestion</td><td>USN-01</td><td>Develop Python ETL parser (process_f1_dataset.py) for 6,464 race records.</td><td>5</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-1</td><td>Data Cleaning</td><td>USN-02</td><td>Filter placeholder records, clean encodings, compute JSON aggregates.</td><td>3</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-1</td><td>Design System</td><td>USN-03</td><td>Build strict F1 Black & Red CSS system (#0a0a0a, #e10600, Orbitron font).</td><td>5</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-1</td><td>Start Sequence</td><td>USN-04</td><td>Create F1 5-light sequence preloader, count-up stats, split-tone hero.</td><td>5</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-1</td><td>Vector Track</td><td>USN-05</td><td>Build animated SVG race track with traveling red car dot and sector marks.</td><td>4</td><td>Medium</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-2</td><td>Tableau BI</td><td>USN-06</td><td>Model and build 8 core analytical panels in Tableau Public.</td><td>6</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-2</td><td>Story Chapters</td><td>USN-07</td><td>Design 7-point interactive narrative story in Tableau Public.</td><td>5</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-2</td><td>Inline Charts</td><td>USN-08</td><td>Implement 4 dynamic Chart.js charts (Leaderboard, Teams, Tyres, DNF).</td><td>5</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-3</td><td>Driver Filters</td><td>USN-09</td><td>Build live driver search, multi-season dropdowns, and sorting algorithms.</td><td>5</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-3</td><td>Lightbox Gallery</td><td>USN-10</td><td>Create masonry gallery with zoom lightbox and keyboard controls.</td><td>3</td><td>Medium</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-3</td><td>Contact Form</td><td>USN-11</td><td>Build validated contact form with animated loading state and toast alert.</td><td>3</td><td>Medium</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-4</td><td>Offline Support</td><td>USN-12</td><td>Compile synchronous data.js store for zero-CORS double-click execution.</td><td>4</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-4</td><td>Testing & QA</td><td>USN-13</td><td>Verify responsive scaling, contrast ratios (>= 4.5:1), and Lighthouse score.</td><td>4</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
-  <tr><td>Sprint-4</td><td>Documentation</td><td>USN-14</td><td>Author full project documentation, reports, and demonstration guides.</td><td>3</td><td>High</td><td>Atharv Prakash Malviya</td></tr>
+  <tr><td>Sprint-1</td><td>Data Ingestion</td><td>USN-01</td><td>Develop Python ETL parser (process_f1_dataset.py) for 6,464 race records.</td><td>5</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-1</td><td>Data Cleaning</td><td>USN-02</td><td>Filter placeholder records, clean encodings, compute JSON aggregates.</td><td>3</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-1</td><td>Design System</td><td>USN-03</td><td>Build strict F1 Black & Red CSS system (#0a0a0a, #e10600, Orbitron font).</td><td>5</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-1</td><td>Start Sequence</td><td>USN-04</td><td>Create F1 5-light sequence preloader, count-up stats, split-tone hero.</td><td>5</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-1</td><td>Vector Track</td><td>USN-05</td><td>Build animated SVG race track with traveling red car dot and sector marks.</td><td>4</td><td>Medium</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-2</td><td>Tableau BI</td><td>USN-06</td><td>Model and build 8 core analytical panels in Tableau Public.</td><td>6</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-2</td><td>Story Chapters</td><td>USN-07</td><td>Design 7-point interactive narrative story in Tableau Public.</td><td>5</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-2</td><td>Inline Charts</td><td>USN-08</td><td>Implement 4 dynamic Chart.js charts (Leaderboard, Teams, Tyres, DNF).</td><td>5</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-3</td><td>Driver Filters</td><td>USN-09</td><td>Build live driver search, multi-season dropdowns, and sorting algorithms.</td><td>5</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-3</td><td>Lightbox Gallery</td><td>USN-10</td><td>Create masonry gallery with zoom lightbox and keyboard controls.</td><td>3</td><td>Medium</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-3</td><td>Contact Form</td><td>USN-11</td><td>Build validated contact form with animated loading state and toast alert.</td><td>3</td><td>Medium</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-4</td><td>Offline Support</td><td>USN-12</td><td>Compile synchronous data.js store for zero-CORS double-click execution.</td><td>4</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-4</td><td>Testing & QA</td><td>USN-13</td><td>Verify responsive scaling, contrast ratios (>= 4.5:1), and Lighthouse score.</td><td>4</td><td>High</td><td>Tanisha Patel</td></tr>
+  <tr><td>Sprint-4</td><td>Documentation</td><td>USN-14</td><td>Author full project documentation, reports, and demonstration guides.</td><td>3</td><td>High</td><td>Tanisha Patel</td></tr>
 </table>
 
 <h2>Project Tracker & Agile Velocity (4 Marks)</h2>
@@ -161,7 +161,7 @@ const p5_tableau_bq_md = `# Project Development Phase (Tableau)
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 24 September 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 5 Marks |
 
@@ -222,7 +222,7 @@ Transforming 6,464 historical and modern race outcomes, 3,814 telemetry laps, an
 const p5_tableau_bq_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Development (Tableau)</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Development (Tableau)</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Business Questions & Visualization Report</td><td><strong>Max Marks:</strong> 5 Marks</td></tr>
   </table>
@@ -296,7 +296,7 @@ const p5_tableau_dash_md = `# Project Development Phase (Tableau)
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 24 September 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 5 Marks |
 
@@ -336,7 +336,7 @@ The **Formula 1 Race Intelligence Dashboard** adheres to the following core UX p
 const p5_tableau_dash_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Development (Tableau)</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Development (Tableau)</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Dashboard Design Template</td><td><strong>Max Marks:</strong> 5 Marks</td></tr>
   </table>
@@ -377,7 +377,7 @@ const p5_tableau_story_md = `# Project Development Phase (Tableau)
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 24 September 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 5 Marks |
 
@@ -419,7 +419,7 @@ Tableau Story enables visual narrative sequencing, guiding viewers through seven
 const p5_tableau_story_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Development (Tableau)</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Development (Tableau)</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Story Design Template</td><td><strong>Max Marks:</strong> 5 Marks</td></tr>
   </table>
@@ -452,7 +452,7 @@ const p5_snow_prep_md = `# Project Development Phase (Snowflake)
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 24 September 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 5 Marks |
 
@@ -560,7 +560,7 @@ SELECT * FROM F1_DB.CURATED.MART_DRIVER_LEADERBOARD ORDER BY total_points DESC L
 const p5_snow_prep_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Development (Snowflake)</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Development (Snowflake)</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Data Preparation Template</td><td><strong>Max Marks:</strong> 5 Marks</td></tr>
   </table>
@@ -620,7 +620,7 @@ const p5_snow_code_md = `# Project Development Phase (Snowflake)
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 24 September 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Maximum Marks** | 5 Marks |
 
@@ -657,7 +657,7 @@ const p5_snow_code_md = `# Project Development Phase (Snowflake)
 const p5_snow_code_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Project Development (Snowflake)</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Project Development (Snowflake)</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Code & Solution Template</td><td><strong>Max Marks:</strong> 5 Marks</td></tr>
   </table>
@@ -698,7 +698,7 @@ const p6_tableau_test_md = `# Performance Testing Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 10 February 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Model Performance Testing |
 
@@ -720,7 +720,7 @@ const p6_tableau_test_md = `# Performance Testing Phase
 const p6_tableau_test_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Performance Testing</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Performance Testing</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Tableau Performance Testing Report</td><td><strong>Format:</strong> Testing Matrix</td></tr>
   </table>
@@ -752,7 +752,7 @@ const p6_pipe_test_md = `# Performance Testing Phase
 | Metadata Field | Project Information |
 | :--- | :--- |
 | **Date** | 10 February 2026 / October 2026 |
-| **Author / Team ID** | Atharv Prakash Malviya |
+| **Author / Team ID** | Tanisha Patel |
 | **Project Name** | Formula 1 Race Intelligence |
 | **Deliverable** | Full-Stack Performance Testing |
 
@@ -775,7 +775,7 @@ const p6_pipe_test_md = `# Performance Testing Phase
 const p6_pipe_test_html = `
 <div class='header-card'>
   <table>
-    <tr><td><strong>Phase:</strong> Performance Testing</td><td><strong>Author:</strong> Atharv Prakash Malviya</td></tr>
+    <tr><td><strong>Phase:</strong> Performance Testing</td><td><strong>Author:</strong> Tanisha Patel</td></tr>
     <tr><td><strong>Project:</strong> Formula 1 Race Intelligence</td><td><strong>Date:</strong> October 2026</td></tr>
     <tr><td><strong>Deliverable:</strong> Full-Stack Web & Pipeline Performance Test</td><td><strong>Format:</strong> Audit Matrix</td></tr>
   </table>
